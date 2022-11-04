@@ -40,4 +40,7 @@ jobs:
         uses: shrink/actions-document-publish@v1
         id: publish-document
         with:
+          input_path: '/'
+          images_dir: 'images'
           sources: 'text.md'
+          build_pdf: true
